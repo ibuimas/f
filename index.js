@@ -546,8 +546,6 @@ bot.action('Journey', (ctx) => {
 bot.action('ether', (ctx) => {
   var msg = 'Please select the deposit amount you want';
   var keyboard = Markup.inlineKeyboard([
-    Markup.callbackButton('0.05 ETH', 'ether005'),
-    Markup.callbackButton('0.1 ETH', 'ether01'),
     Markup.callbackButton('0.2 ETH', 'ether02'),
     Markup.callbackButton('0.5 ETH', 'ether05'),
     Markup.callbackButton('1 ETH', 'ether1'),
@@ -562,9 +560,6 @@ bot.action('ether', (ctx) => {
 bot.action('bnb', (ctx) => {
   var msg = 'Please select the deposit amount you want';
   var keyboard = Markup.inlineKeyboard([
-    Markup.callbackButton('0.1 BNB', 'bnb01'),
-    Markup.callbackButton('0.2 BNB', 'bnb02'),
-    Markup.callbackButton('0.5 BNB', 'bnb05'),
     Markup.callbackButton('1 BNB', 'bnb1'),
     Markup.callbackButton('2 BNB', 'bnb2'),
     Markup.callbackButton('5 BNB', 'bnb5'),
@@ -577,10 +572,6 @@ bot.action('bnb', (ctx) => {
 bot.action('usdt', (ctx) => {
   var msg = 'Please select the deposit amount you want';
   var keyboard = Markup.inlineKeyboard([
-    Markup.callbackButton('50 USDT', 'deposit50'),
-    Markup.callbackButton('100 USDT', 'deposit100'),
-    Markup.callbackButton('150 USDT', 'deposit150'),
-    Markup.callbackButton('200 USDT', 'deposit200'),
     Markup.callbackButton('500 USDT', 'deposit500'),
     Markup.callbackButton('1000 USDT', 'deposit1000'),
     Markup.callbackButton('2000 USDT', 'deposit2000'),
